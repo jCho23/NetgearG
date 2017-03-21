@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{2199B6CE-C5DD-42AE-9949-B82B22B5E93D}|Unit Tests">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NetgearG/AppInitializer.cs">
+    <Files>
+      <File FileName="NetgearG/AppInitializer.cs" Line="30" Column="6" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.NetgearG PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
