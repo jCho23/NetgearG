@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{2199B6CE-C5DD-42AE-9949-B82B22B5E93D}|Unit Tests">
-  <MonoDevelop.Ide.Workbench ActiveDocument="NetgearG/AppInitializer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NetgearG/Tests.cs">
     <Files>
-      <File FileName="NetgearG/AppInitializer.cs" Line="30" Column="6" />
+      <File FileName="NetgearG/AppInitializer.cs" Line="33" Column="4" />
+      <File FileName="NetgearG/Tests.cs" Line="31" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
