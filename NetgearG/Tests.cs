@@ -23,6 +23,7 @@ namespace NetgearG
 		public void BeforeEachTest()
 		{
 			app = AppInitializer.StartApp(platform);
+			app.Screenshot("App Launched");
 
 		}
 
@@ -33,7 +34,7 @@ namespace NetgearG
 		}
 
 		[Test]
-		public void FirstTest()
+		public void GuestMyMediaTest()
 		{
 			app.Tap("SKIP");
 			app.Screenshot("Let's start by Tapping on the 'Skip' Button");
@@ -45,20 +46,25 @@ namespace NetgearG
 			app.Screenshot("Next we Tapped the 'Continue without login' Button ");
 
 			app.Tap("main_functionitem_ico");
-			app.Screenshot("Next we Tapped on the 'MyMedia' Button");
+			app.Screenshot("We Tapped on the 'MyMedia' Button");
 
 			app.Tap("listItemTitle");
 			app.Screenshot("Then we Tapped on the 'Local Media Server' Button");
 
 			app.Tap("Images");
+			app.Screenshot(";Next we Tapped on 'Images'");
 
 			app.Tap("common_toolbar_rightbtn");
+			app.Screenshot("We Tapped on the 'Gear' Icon");
 
 			app.Back();
+			app.Screenshot("Then we Tapped the 'Back' Button");
 
 			app.Back();
+			app.Screenshot("We Tapped the 'Back' Button again");
 
 			app.Tap("Audios");
+			app.Screenshot("Next we Tapped on the 'Audios' Button");
 
 			app.Tap("PLAYER");
 			app.Screenshot("Then we Tapped 'Player'");
