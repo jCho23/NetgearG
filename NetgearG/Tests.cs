@@ -36,10 +36,13 @@ namespace NetgearG
 		public void FirstTest()
 		{
 			app.Tap("SKIP");
+			app.Screenshot("Let's start by Tapping on the 'Skip' Button");
 
 			app.Tap("benefits_dialog_yes_btn");
+			app.Screenshot("Then we Tapped the Yes Button");
 
 			app.Tap("local_access_continue_withoutlogin");
+			app.Screenshot("Next we Tapped the 'Continue without login' Button ");
 
 			app.Tap("main_functionitem_ico");
 			app.Screenshot("Next we Tapped on the 'MyMedia' Button");
