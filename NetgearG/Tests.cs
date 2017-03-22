@@ -34,7 +34,13 @@ namespace NetgearG
 		[Test]
 		public void FirstTest()
 		{
-			app.Screenshot("App Launched");
+			app.Tap("main_intro_btn_login_with_netgear");
+
+			app.Tap("login_address");
+
+
+
+
 		}
 
 	}
