@@ -31,6 +31,11 @@ namespace NetgearG
 			app.Repl();
 		}
 
+		[Test]
+		public void FirstTest()
+		{
+			app.Screenshot("App Launched");
+		}
 
 	}
 }

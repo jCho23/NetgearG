@@ -27,7 +27,7 @@ namespace NetgearG
 					.Android
 					// TODO: Update this path to point to your Android app and uncomment the
 					// code if the app is not included in the solution.
-					.ApkFile("/Users/junecho/Desktop/apkS/NetgearGenie.apk")
+					.ApkFile("/Users/junecho/Desktop/apkS/NetgearG.apk")
 					.StartApp();
 			}
 
