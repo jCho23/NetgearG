@@ -23,6 +23,7 @@ namespace NetgearG
 		public void BeforeEachTest()
 		{
 			app = AppInitializer.StartApp(platform);
+
 		}
 
 		[Test]
@@ -40,25 +41,24 @@ namespace NetgearG
 
 			app.Tap("local_access_continue_withoutlogin");
 
-			app.Tap("main_toolbar_leftbtn");
-
 			app.Tap("main_functionitem_ico");
 			app.Screenshot("Next we Tapped on the 'MyMedia' Button");
 
 			app.Tap("listItemTitle");
 			app.Screenshot("Then we Tapped on the 'Local Media Server' Button");
 
+			app.Tap("Images");
 
+			app.Tap("common_toolbar_rightbtn");
 
+			app.Back();
 
-			app.Tap("user_info_support_txt");
-			app.Screenshot("Then we Tapped the Hamburger Icon");
+			app.Back();
 
+			app.Tap("Audios");
 
-
-
-
-
+			app.Tap("PLAYER");
+			app.Screenshot("Then we Tapped 'Player'");
 		}
 
 	}
