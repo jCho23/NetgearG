@@ -34,9 +34,16 @@ namespace NetgearG
 		[Test]
 		public void FirstTest()
 		{
-			app.Tap("main_intro_btn_login_with_netgear");
+			app.Tap("SKIP");
 
-			app.Tap("login_address");
+			app.Tap("benefits_dialog_yes_btn");
+
+			app.Tap("local_access_continue_withoutlogin");
+
+			app.Tap("main_toolbar_leftbtn");
+
+
+
 
 
 
